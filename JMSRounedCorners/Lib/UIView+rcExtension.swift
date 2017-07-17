@@ -22,6 +22,7 @@ public extension UIView {
         if let tempImage = self.jms_rcImage(bgColor) {
             if let newImage = self.jms_roundedCorner(image: tempImage, cornerRadius: cornerRadius, rectCornerType: rectCornerType, borderWidth: borderWidth, borderColor: borderColor) {
                 let imageView = UIImageView.init(image: newImage)
+                
                 self.insertSubview(imageView, at: 0)
                 self.backgroundColor = .clear
                 
@@ -63,6 +64,8 @@ public extension UIView {
     }
     
     private func jms_rcImage(_ bgColor: UIColor) -> UIImage? {
+        self.backgroundColor = bgColor
+        
         let size = self.bounds.size
         let rect = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)

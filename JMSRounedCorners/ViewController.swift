@@ -39,6 +39,14 @@ class ViewController: UIViewController {
         return tempImageView
     }()
 
+    private lazy var btn: UIButton = {
+        let tempBtn = UIButton.init()
+        tempBtn.setTitle("按钮", for: .normal)
+        tempBtn.setTitleColor(UIColor.black, for: .normal)
+        
+        return tempBtn
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -87,6 +95,16 @@ class ViewController: UIViewController {
         
 //        self.imageView.image = UIImage.init(named: "dog")
         self.imageView.kf.setImage(with: URL.init(string: "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1500275953&di=6ce894b2972d29d8758b6b64a029196e&src=http://www.gurubear.com.cn/editor/uploadfile/20130826151723.jpg"), placeholder: UIImage.init(named: "dog"))
+        
+        self.view.addSubview(btn)
+        
+        self.btn.snp.makeConstraints { (make) in
+            make.top.equalTo(200)
+            make.centerX.equalTo(self.view)
+            make.size.equalTo(CGSize.init(width: 80, height: 30))
+        }
+        
+        self.btn.jms_rounedCorner(bgColor: UIColor.yellow, cornerRadius: 15, rectCornerType: [.topLeft, .bottomRight], borderWidth: 1, borderColor: UIColor.blue)
     }
 }
 
