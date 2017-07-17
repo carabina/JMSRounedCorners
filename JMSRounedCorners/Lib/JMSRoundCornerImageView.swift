@@ -49,8 +49,8 @@ public class JMSRounedCornerImageView: UIImageView {
         self.removeObserver(self, forKeyPath: jms_def_Image)
     }
     
-    override public func jms_rounedCorner(cornerRadius: CGFloat, rectCornerType: UIRectCorner, borderWidth: CGFloat, borderColor: UIColor?) {
-
+    override public func jms_rounedCorner(bgColor: UIColor, cornerRadius: CGFloat, rectCornerType: UIRectCorner, borderWidth: CGFloat, borderColor: UIColor?) {
+        
     }
     
     // MARK: - KVO

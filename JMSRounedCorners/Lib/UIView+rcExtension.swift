@@ -12,14 +12,14 @@ private let kRCImageView: UnsafeRawPointer! = UnsafeRawPointer.init(bitPattern: 
 
 public extension UIView {
     
-    public func jms_rounedCorner(cornerRadius: CGFloat, rectCornerType: UIRectCorner = .allCorners, borderWidth: CGFloat = 0, borderColor: UIColor? = nil) {
+    public func jms_rounedCorner(bgColor: UIColor = .clear, cornerRadius: CGFloat = 0, rectCornerType: UIRectCorner = .allCorners, borderWidth: CGFloat = 0, borderColor: UIColor? = nil) {
         self.layoutIfNeeded()
         
         if let tempImageView = objc_getAssociatedObject(self, kRCImageView) as? UIImageView {
             tempImageView.removeFromSuperview()
         }
         
-        if let tempImage = self.jms_rcImage() {
+        if let tempImage = self.jms_rcImage(bgColor) {
             if let newImage = self.jms_roundedCorner(image: tempImage, cornerRadius: cornerRadius, rectCornerType: rectCornerType, borderWidth: borderWidth, borderColor: borderColor) {
                 let imageView = UIImageView.init(image: newImage)
                 self.insertSubview(imageView, at: 0)
@@ -30,7 +30,7 @@ public extension UIView {
         }
     }
     
-    public func jms_roundedCorner(image: UIImage, cornerRadius: CGFloat, rectCornerType: UIRectCorner, borderWidth: CGFloat, borderColor: UIColor? = nil) -> UIImage? {
+    func jms_roundedCorner(image: UIImage, cornerRadius: CGFloat, rectCornerType: UIRectCorner, borderWidth: CGFloat, borderColor: UIColor? = nil) -> UIImage? {
         let size = self.bounds.size
         let scale = UIScreen.main.scale
         let cornerRadii = CGSize.init(width: cornerRadius, height: cornerRadius)
@@ -62,12 +62,12 @@ public extension UIView {
         }
     }
     
-    private func jms_rcImage() -> UIImage? {
+    private func jms_rcImage(_ bgColor: UIColor) -> UIImage? {
         let size = self.bounds.size
         let rect = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         let context = UIGraphicsGetCurrentContext()
-        context?.setFillColor(self.backgroundColor?.cgColor ?? UIColor.clear.cgColor)
+        context?.setFillColor(bgColor.cgColor)
         context?.fill(rect)
         
         let image = UIGraphicsGetImageFromCurrentImageContext()
