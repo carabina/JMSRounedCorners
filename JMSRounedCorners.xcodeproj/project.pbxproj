@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115CE1F98A2B20F8A0C4A968 /* Pods_Shows_JMSRounedCorners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB210F8CE6007E4B4C02431 /* Pods_Shows_JMSRounedCorners.framework */; };
+		1A0E40521F1C982500B3A013 /* UIView+rcExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E40511F1C982500B3A013 /* UIView+rcExtension.swift */; };
+		1A0E40541F1C984C00B3A013 /* JMSRoundCornerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E40531F1C984C00B3A013 /* JMSRoundCornerImageView.swift */; };
+		1AAB43521F199D0100558380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB43511F199D0100558380 /* AppDelegate.swift */; };
+		1AAB43541F199D0100558380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB43531F199D0100558380 /* ViewController.swift */; };
+		1AAB43571F199D0100558380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB43551F199D0100558380 /* Main.storyboard */; };
+		1AAB43591F199D0100558380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB43581F199D0100558380 /* Assets.xcassets */; };
+		1AAB435C1F199D0100558380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB435A1F199D0100558380 /* LaunchScreen.storyboard */; };
+		1AAB43671F199D0200558380 /* JMSRounedCornersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB43661F199D0200558380 /* JMSRounedCornersTests.swift */; };
+		1AAB43721F199D0200558380 /* JMSRounedCornersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB43711F199D0200558380 /* JMSRounedCornersUITests.swift */; };
+		9AA3A005A73246A7822AAB18 /* Pods_Shows_JMSRounedCornersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AAF7EC51BEDD5DE0F79AC /* Pods_Shows_JMSRounedCornersTests.framework */; };
+		C11B37B2FAB1620455766D42 /* Pods_Shows_JMSRounedCornersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5BAB38BC41A840A7DB873F /* Pods_Shows_JMSRounedCornersUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AAB43631F199D0200558380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAB43461F199D0100558380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAB434D1F199D0100558380;
+			remoteInfo = JMSRounedCorners;
+		};
+		1AAB436E1F199D0200558380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAB43461F199D0100558380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAB434D1F199D0100558380;
+			remoteInfo = JMSRounedCorners;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180EEF7029CC5DB3DD907DD2 /* Pods-Shows-JMSRounedCorners.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCorners.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCorners/Pods-Shows-JMSRounedCorners.release.xcconfig"; sourceTree = "<group>"; };
+		199AAF7EC51BEDD5DE0F79AC /* Pods_Shows_JMSRounedCornersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shows_JMSRounedCornersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0E40511F1C982500B3A013 /* UIView+rcExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+rcExtension.swift"; sourceTree = "<group>"; };
+		1A0E40531F1C984C00B3A013 /* JMSRoundCornerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMSRoundCornerImageView.swift; sourceTree = "<group>"; };
+		1AAB434E1F199D0100558380 /* JMSRounedCorners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMSRounedCorners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB43511F199D0100558380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AAB43531F199D0100558380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AAB43561F199D0100558380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AAB43581F199D0100558380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AAB435B1F199D0100558380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AAB435D1F199D0100558380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAB43621F199D0200558380 /* JMSRounedCornersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMSRounedCornersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB43661F199D0200558380 /* JMSRounedCornersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMSRounedCornersTests.swift; sourceTree = "<group>"; };
+		1AAB43681F199D0200558380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAB436D1F199D0200558380 /* JMSRounedCornersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMSRounedCornersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB43711F199D0200558380 /* JMSRounedCornersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMSRounedCornersUITests.swift; sourceTree = "<group>"; };
+		1AAB43731F199D0200558380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB210F8CE6007E4B4C02431 /* Pods_Shows_JMSRounedCorners.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shows_JMSRounedCorners.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEAE300EED4EEDD71E2AF4E /* Pods-Shows-JMSRounedCornersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCornersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCornersTests/Pods-Shows-JMSRounedCornersTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B62F42F9358C5742493F6D1 /* Pods-Shows-JMSRounedCornersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCornersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCornersUITests/Pods-Shows-JMSRounedCornersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		962A608443E891632EBB11DC /* Pods-Shows-JMSRounedCorners.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCorners.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCorners/Pods-Shows-JMSRounedCorners.debug.xcconfig"; sourceTree = "<group>"; };
+		9CC5689337120E5307F0AD77 /* Pods-Shows-JMSRounedCornersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCornersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCornersUITests/Pods-Shows-JMSRounedCornersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB0EEE1C2A480851F831E2D /* Pods-Shows-JMSRounedCornersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-JMSRounedCornersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-JMSRounedCornersTests/Pods-Shows-JMSRounedCornersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5BAB38BC41A840A7DB873F /* Pods_Shows_JMSRounedCornersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shows_JMSRounedCornersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAB434B1F199D0100558380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115CE1F98A2B20F8A0C4A968 /* Pods_Shows_JMSRounedCorners.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB435F1F199D0200558380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA3A005A73246A7822AAB18 /* Pods_Shows_JMSRounedCornersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB436A1F199D0200558380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11B37B2FAB1620455766D42 /* Pods_Shows_JMSRounedCornersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAB43451F199D0100558380 = {
+			isa = PBXGroup;
+			children = (
+				1AAB43501F199D0100558380 /* JMSRounedCorners */,
+				1AAB43651F199D0200558380 /* JMSRounedCornersTests */,
+				1AAB43701F199D0200558380 /* JMSRounedCornersUITests */,
+				1AAB434F1F199D0100558380 /* Products */,
+				FB0258D808010D748A8530E4 /* Pods */,
+				48E7B22BF11662E8EA9D9AA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AAB434F1F199D0100558380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB434E1F199D0100558380 /* JMSRounedCorners.app */,
+				1AAB43621F199D0200558380 /* JMSRounedCornersTests.xctest */,
+				1AAB436D1F199D0200558380 /* JMSRounedCornersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AAB43501F199D0100558380 /* JMSRounedCorners */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB437F1F199D1700558380 /* Lib */,
+				1AAB43511F199D0100558380 /* AppDelegate.swift */,
+				1AAB43531F199D0100558380 /* ViewController.swift */,
+				1AAB43551F199D0100558380 /* Main.storyboard */,
+				1AAB43581F199D0100558380 /* Assets.xcassets */,
+				1AAB435A1F199D0100558380 /* LaunchScreen.storyboard */,
+				1AAB435D1F199D0100558380 /* Info.plist */,
+			);
+			path = JMSRounedCorners;
+			sourceTree = "<group>";
+		};
+		1AAB43651F199D0200558380 /* JMSRounedCornersTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB43661F199D0200558380 /* JMSRounedCornersTests.swift */,
+				1AAB43681F199D0200558380 /* Info.plist */,
+			);
+			path = JMSRounedCornersTests;
+			sourceTree = "<group>";
+		};
+		1AAB43701F199D0200558380 /* JMSRounedCornersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB43711F199D0200558380 /* JMSRounedCornersUITests.swift */,
+				1AAB43731F199D0200558380 /* Info.plist */,
+			);
+			path = JMSRounedCornersUITests;
+			sourceTree = "<group>";
+		};
+		1AAB437F1F199D1700558380 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1A0E40511F1C982500B3A013 /* UIView+rcExtension.swift */,
+				1A0E40531F1C984C00B3A013 /* JMSRoundCornerImageView.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		48E7B22BF11662E8EA9D9AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB210F8CE6007E4B4C02431 /* Pods_Shows_JMSRounedCorners.framework */,
+				199AAF7EC51BEDD5DE0F79AC /* Pods_Shows_JMSRounedCornersTests.framework */,
+				FC5BAB38BC41A840A7DB873F /* Pods_Shows_JMSRounedCornersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0258D808010D748A8530E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962A608443E891632EBB11DC /* Pods-Shows-JMSRounedCorners.debug.xcconfig */,
+				180EEF7029CC5DB3DD907DD2 /* Pods-Shows-JMSRounedCorners.release.xcconfig */,
+				AAB0EEE1C2A480851F831E2D /* Pods-Shows-JMSRounedCornersTests.debug.xcconfig */,
+				3CEAE300EED4EEDD71E2AF4E /* Pods-Shows-JMSRounedCornersTests.release.xcconfig */,
+				9CC5689337120E5307F0AD77 /* Pods-Shows-JMSRounedCornersUITests.debug.xcconfig */,
+				4B62F42F9358C5742493F6D1 /* Pods-Shows-JMSRounedCornersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AAB434D1F199D0100558380 /* JMSRounedCorners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB43761F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCorners" */;
+			buildPhases = (
+				493D3607359F978C2051A9D4 /* [CP] Check Pods Manifest.lock */,
+				1AAB434A1F199D0100558380 /* Sources */,
+				1AAB434B1F199D0100558380 /* Frameworks */,
+				1AAB434C1F199D0100558380 /* Resources */,
+				E0B6A4562C0A6E2DA22718DA /* [CP] Embed Pods Frameworks */,
+				A1E33D4A1060F606C236BC57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMSRounedCorners;
+			productName = JMSRounedCorners;
+			productReference = 1AAB434E1F199D0100558380 /* JMSRounedCorners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AAB43611F199D0200558380 /* JMSRounedCornersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB43791F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCornersTests" */;
+			buildPhases = (
+				5769130B8B5607E5D387022F /* [CP] Check Pods Manifest.lock */,
+				1AAB435E1F199D0200558380 /* Sources */,
+				1AAB435F1F199D0200558380 /* Frameworks */,
+				1AAB43601F199D0200558380 /* Resources */,
+				409744DC5DA714D320EE39E5 /* [CP] Embed Pods Frameworks */,
+				26B5E71914EAE81FB6C51DA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAB43641F199D0200558380 /* PBXTargetDependency */,
+			);
+			name = JMSRounedCornersTests;
+			productName = JMSRounedCornersTests;
+			productReference = 1AAB43621F199D0200558380 /* JMSRounedCornersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AAB436C1F199D0200558380 /* JMSRounedCornersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB437C1F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCornersUITests" */;
+			buildPhases = (
+				F0C49C4F02C7B42F8B646EF0 /* [CP] Check Pods Manifest.lock */,
+				1AAB43691F199D0200558380 /* Sources */,
+				1AAB436A1F199D0200558380 /* Frameworks */,
+				1AAB436B1F199D0200558380 /* Resources */,
+				6423441C2CDBD5AE19091FFF /* [CP] Embed Pods Frameworks */,
+				712F5191282DD85731987182 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAB436F1F199D0200558380 /* PBXTargetDependency */,
+			);
+			name = JMSRounedCornersUITests;
+			productName = JMSRounedCornersUITests;
+			productReference = 1AAB436D1F199D0200558380 /* JMSRounedCornersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AAB43461F199D0100558380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					1AAB434D1F199D0100558380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+					};
+					1AAB43611F199D0200558380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AAB434D1F199D0100558380;
+					};
+					1AAB436C1F199D0200558380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AAB434D1F199D0100558380;
+					};
+				};
+			};
+			buildConfigurationList = 1AAB43491F199D0100558380 /* Build configuration list for PBXProject "JMSRounedCorners" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AAB43451F199D0100558380;
+			productRefGroup = 1AAB434F1F199D0100558380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AAB434D1F199D0100558380 /* JMSRounedCorners */,
+				1AAB43611F199D0200558380 /* JMSRounedCornersTests */,
+				1AAB436C1F199D0200558380 /* JMSRounedCornersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AAB434C1F199D0100558380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB435C1F199D0100558380 /* LaunchScreen.storyboard in Resources */,
+				1AAB43591F199D0100558380 /* Assets.xcassets in Resources */,
+				1AAB43571F199D0100558380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB43601F199D0200558380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB436B1F199D0200558380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B5E71914EAE81FB6C51DA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersTests/Pods-Shows-JMSRounedCornersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		409744DC5DA714D320EE39E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersTests/Pods-Shows-JMSRounedCornersTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersTests/Pods-Shows-JMSRounedCornersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		493D3607359F978C2051A9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shows-JMSRounedCorners-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5769130B8B5607E5D387022F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shows-JMSRounedCornersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6423441C2CDBD5AE19091FFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersUITests/Pods-Shows-JMSRounedCornersUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersUITests/Pods-Shows-JMSRounedCornersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712F5191282DD85731987182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCornersUITests/Pods-Shows-JMSRounedCornersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E33D4A1060F606C236BC57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCorners/Pods-Shows-JMSRounedCorners-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B6A4562C0A6E2DA22718DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCorners/Pods-Shows-JMSRounedCorners-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-JMSRounedCorners/Pods-Shows-JMSRounedCorners-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C49C4F02C7B42F8B646EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shows-JMSRounedCornersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAB434A1F199D0100558380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0E40521F1C982500B3A013 /* UIView+rcExtension.swift in Sources */,
+				1AAB43541F199D0100558380 /* ViewController.swift in Sources */,
+				1AAB43521F199D0100558380 /* AppDelegate.swift in Sources */,
+				1A0E40541F1C984C00B3A013 /* JMSRoundCornerImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB435E1F199D0200558380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB43671F199D0200558380 /* JMSRounedCornersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB43691F199D0200558380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB43721F199D0200558380 /* JMSRounedCornersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AAB43641F199D0200558380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AAB434D1F199D0100558380 /* JMSRounedCorners */;
+			targetProxy = 1AAB43631F199D0200558380 /* PBXContainerItemProxy */;
+		};
+		1AAB436F1F199D0200558380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AAB434D1F199D0100558380 /* JMSRounedCorners */;
+			targetProxy = 1AAB436E1F199D0200558380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AAB43551F199D0100558380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAB43561F199D0100558380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AAB435A1F199D0100558380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAB435B1F199D0100558380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AAB43741F199D0200558380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AAB43751F199D0200558380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AAB43771F199D0200558380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962A608443E891632EBB11DC /* Pods-Shows-JMSRounedCorners.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1AAB43781F199D0200558380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180EEF7029CC5DB3DD907DD2 /* Pods-Shows-JMSRounedCorners.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1AAB437A1F199D0200558380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB0EEE1C2A480851F831E2D /* Pods-Shows-JMSRounedCornersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCornersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCornersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSRounedCorners.app/JMSRounedCorners";
+			};
+			name = Debug;
+		};
+		1AAB437B1F199D0200558380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEAE300EED4EEDD71E2AF4E /* Pods-Shows-JMSRounedCornersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCornersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCornersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSRounedCorners.app/JMSRounedCorners";
+			};
+			name = Release;
+		};
+		1AAB437D1F199D0200558380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC5689337120E5307F0AD77 /* Pods-Shows-JMSRounedCornersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCornersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCornersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JMSRounedCorners;
+			};
+			name = Debug;
+		};
+		1AAB437E1F199D0200558380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B62F42F9358C5742493F6D1 /* Pods-Shows-JMSRounedCornersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMSRounedCornersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMSRounedCornersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JMSRounedCorners;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAB43491F199D0100558380 /* Build configuration list for PBXProject "JMSRounedCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB43741F199D0200558380 /* Debug */,
+				1AAB43751F199D0200558380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB43761F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB43771F199D0200558380 /* Debug */,
+				1AAB43781F199D0200558380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB43791F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCornersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB437A1F199D0200558380 /* Debug */,
+				1AAB437B1F199D0200558380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB437C1F199D0200558380 /* Build configuration list for PBXNativeTarget "JMSRounedCornersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB437D1F199D0200558380 /* Debug */,
+				1AAB437E1F199D0200558380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AAB43461F199D0100558380 /* Project object */;
+}

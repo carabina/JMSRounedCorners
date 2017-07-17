@@ -1,0 +1,6 @@
+framework module Pods_Shows_JMSRounedCornersTests {
+  umbrella header "Pods-Shows-JMSRounedCornersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
